@@ -6,7 +6,7 @@ During endoscopic procedures, a camera is inserted into the human body to captur
 
 [Google Slide Presentation](https://docs.google.com/presentation/d/14XVHCLMbdZn7RuGTQMlrS_MPJw3D9bfCjqDKJ1hALdA/edit?usp=sharing)
 
-[Thesis Paper]()
+[Thesis Paper](https://github.com/qyc206/EndoscopyWithNerf/blob/main/qyc206_thesis_paper.pdf)
 
 ## About the dataset
 
@@ -16,14 +16,14 @@ For this research, 20 consecutive stomach frames with their corresponding camera
 
 ## Where to start
 
-Use the [train_test_nerf/convert2npy.py]() to prepare the poses_bounds.npy file that is needed for training. Once this file is obtained, place it along with the "images" folder containing the corresponding frames in a folder for training. 
+Use the [train_test_nerf/convert2npy.py](https://github.com/qyc206/EndoscopyWithNerf/blob/main/train_test_nerf/convert2npy.py) to prepare the poses_bounds.npy file that is needed for training. Once this file is obtained, place it along with the "images" folder containing the corresponding frames in a folder for training. 
 
-Use this [train_test_nerf/train_nerf_colab.ipynb]() ([colab version](https://colab.research.google.com/drive/1FI1iOV0Z5kV9qNJBPa8vTElEFnh6jVVn?usp=sharing)) notebook for training and testing a NeRF model with custom data. This notebook also contains some code for obtaining and visualizing the obtained depth predictions. 
+Use this [train_test_nerf/train_nerf_colab.ipynb](https://github.com/qyc206/EndoscopyWithNerf/blob/main/train_test_nerf/train_nerf_colab.ipynb) ([colab version](https://colab.research.google.com/drive/1FI1iOV0Z5kV9qNJBPa8vTElEFnh6jVVn?usp=sharing)) notebook for training and testing a NeRF model with custom data. This notebook also contains some code for obtaining and visualizing the obtained depth predictions. 
 
-Follow the [README]() in the [visualize_cameras]() folder to visualize the camera poses from the poses_bounds.npy file.
+Follow the [README](https://github.com/qyc206/EndoscopyWithNerf/blob/main/visualize_cameras/README.md) in the [visualize_cameras](https://github.com/qyc206/EndoscopyWithNerf/tree/main/visualize_cameras) folder to visualize the camera poses from the poses_bounds.npy file.
 
 ## Extras
 
-If you would like to render your own frames (i.e. obtain a synthetic dataset) via Blender, use the code files in [render_custom_frames_blender]() folder. 
+If you would like to render your own frames (i.e. obtain a synthetic dataset) via Blender, use the code files in [render_custom_frames_blender](https://github.com/qyc206/EndoscopyWithNerf/tree/main/render_custom_frames_blender) folder. 
 
 This [google drive folder](https://drive.google.com/drive/folders/19M-abwXits9HcVM82lurrhMnRVqqY8df?usp=sharing) contains the results from the trials and tests that I have ran. 
